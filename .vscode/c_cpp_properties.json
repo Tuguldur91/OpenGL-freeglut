@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "D:/compiler/ucrt64/include/c++/15.2.0",
+                "D:/compiler/ucrt64/include/c++/15.2.0/x86_64-w64-mingw32",
+                "D:/compiler/ucrt64/include/c++/15.2.0/backward",
+                "D:/compiler/ucrt64/include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "compilerPath": "D:/compiler/ucrt64/bin/g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}

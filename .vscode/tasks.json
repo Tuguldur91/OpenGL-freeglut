@@ -4,7 +4,7 @@
     {
       "label": "Build and Run FreeGLUT App",
       "type": "shell",
-      "command": "C:/msys64/mingw64/bin/g++.exe",
+      "command": "D:/compiler/ucrt64/bin/g++.exe",
       "args": [
         "-g",
         "${file}",
@@ -12,11 +12,17 @@
         "${fileDirname}/${fileBasenameNoExtension}.exe",
         "-lfreeglut",
         "-lopengl32",
-				"-lglu32",
+        "-lglu32",
         "-lgdi32",
         "&&",
         "${fileDirname}/${fileBasenameNoExtension}.exe"
       ],
+      "options": {
+        "shell": {
+          "executable": "cmd.exe",
+          "args": ["/c"]
+        }
+      },
       "group": {
         "kind": "build",
         "isDefault": true
